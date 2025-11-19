@@ -54,11 +54,7 @@ const Features = () => {
                     )
                 })
             }
-
-            {/*feature 1 */}
-           
-
-          
+     
         </div>
    </section>
   )
