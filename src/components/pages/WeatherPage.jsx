@@ -49,7 +49,7 @@ const handleSubmit = async (e) => {
     <div>
         <Navbar />
         {/* search section */}
-        <section className='bg-linear-to-br from-purple-900 to-blue-200 py-12'>
+        <section className='bg-linear-to-br from-green-900 to-yellow-200 py-12'>
             <div className='max-w-2xl mx-auto px-4 sm:px-6'>
                 {/* heading */}
                 <div className='text-center mb-8'>
