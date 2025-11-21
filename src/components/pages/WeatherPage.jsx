@@ -3,6 +3,7 @@ import Navbar from '../shared/Navbar';
 import WeatherCard from '../shared/WeatherCard';
 
 
+
 const WeatherPage = () => {
 
     const [searchInput, setSearchInput] = useState("");
@@ -50,10 +51,27 @@ const handleSubmit = async (e) => {
         <Navbar />
         {/* search section */}
         <section className='bg-linear-to-br from-green-900 to-yellow-200 py-12'>
+
+            {/* visual effects            
+            <div class="particles-container">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+            */}
+  
+
             <div className='max-w-2xl mx-auto px-4 sm:px-6'>
                 {/* heading */}
                 <div className='text-center mb-8'>
-                    <h1 className='text-4xl font-bold text-white mb-2'>Search Weather</h1>
+                    <h1 className='text-4xl font-bold text-white mb-2'>Search Weather <br />Tarw Dipesh Vaduaa Hoo 😂</h1>
                     <p className='text-lg text-white/90'>Get real-time weather information for any city worldwide</p>
                 </div>
 
